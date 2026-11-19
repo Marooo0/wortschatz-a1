@@ -1,11 +1,15 @@
 # Wortschatz A1
 
-A static vocabulary trainer for Netzwerk neu A1. It includes flashcards, article and plural review, picture clues, and German pronunciation audio. Progress is stored in the browser.
+A personal vocabulary trainer for Netzwerk neu A1, with flashcards, article and plural review, picture clues, and German pronunciation audio. Progress is stored in your browser.
 
-## Run locally
+## Open the trainer
 
-From the repository root, run `python -m http.server 8000 --bind 127.0.0.1`, then open `http://127.0.0.1:8000`.
+Live trainer: https://wortschatz-a1-lernen.buzzydogwood8.chatgpt.site
 
-## Hosting
+The standalone `index.html` includes all pronunciation audio. Download it and open it in your browser.
 
-Keep `index.html` and `pronunciation/` together. The current trainer is hosted privately. A static copy requires access control on its host to stay private.
+You can also run `python -m http.server 8000 --bind 127.0.0.1` from the repository folder and open `http://127.0.0.1:8000`.
+
+## Privacy
+
+This repository is private. Keep access control enabled on any host used for your personal trainer.
