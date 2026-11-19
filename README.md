@@ -10,6 +10,6 @@ Hosted with GitHub Pages. The repository and website are public. Your learning p
 
 ## Run locally
 
-The standalone `index.html` includes all pronunciation audio. Download it and open it in your browser.
+Keep `index.html` and all `pronunciation-*.json` files together. Run `python -m http.server 8000 --bind 127.0.0.1` from this folder and open `http://127.0.0.1:8000`.
 
-You can also run `python -m http.server 8000 --bind 127.0.0.1` from this folder and open `http://127.0.0.1:8000`.
+The page loads without waiting for the audio library. Audio is downloaded in small groups as needed and cached in a bounded in-memory cache. The original offline single-file export is separate from this web version.
